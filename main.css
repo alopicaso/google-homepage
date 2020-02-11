@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+
+#left-bar{
+    flex-grow: 1;
+    padding: 10px;
+}
+#right-bar{
+    padding: 10px;
+}
+#image{
+    display: flex;
+}
+
+#toggle-image{
+    margin-right: 10px;
+    margin-top: 5px; 
+    padding:15px 15px;
+    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    opacity: .55;
+    background-size: 528px 68px;
+}
+#profile-image{
+   background-image: url(https://lh3.googleusercontent.com/-Xl2VCkBUw1c/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdxKBbDPsToehGf7A92AgYT2zQ3Sw.CMID/s32-c/photo.jpg);    background-image: url(https://lh3.googleusercontent.com/-Xl2VCkBUw1c/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdxKBbDPsToehGf7A92AgYT2zQ3Sw.CMID/s32-c/photo.jpg); 
+   margin-right: 10px;
+   margin-top:5px;
+   padding:15px 15px;
+   height: 3px;
+   width: 3px;
+   border-radius: 50%;
+
+}
